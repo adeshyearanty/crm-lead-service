@@ -27,8 +27,8 @@ import { NotesModule } from './notes/notes.module';
           'MONGO_USER',
         )}:${configService.get(
           'MONGO_PASSWORD',
-        // )}@miraki-training.gn5hy.mongodb.net/${configService.get(
-          )}@gamyam.tumrpaj.mongodb.net/${configService.get(
+        )}@miraki-training.gn5hy.mongodb.net/${configService.get(
+          // )}@gamyam.tumrpaj.mongodb.net/${configService.get(
           'MONGO_DATABASE',
         )}?retryWrites=true&w=majority`,
       }),
